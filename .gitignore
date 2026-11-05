@@ -33,6 +33,7 @@ build/
 .vscode/
 
 # Flyway ignores
+/flyway-config/
 *.user.toml
 *.artifact
 report.html
