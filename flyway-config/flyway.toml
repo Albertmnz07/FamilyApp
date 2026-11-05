@@ -4,7 +4,7 @@ name = "FamlilyApp"
 
 [flyway]
 callbackLocations = [ "filesystem:callbacks" ]
-locations = [ "filesystem:../src/main/resources/db/migration" ]
+locations = ["filesystem:C:/Users/alber/Desktop/lenguajes/java/ProyectosActuales/FamilyApp/src/main/resources/db/migration"]
 mixed = true
 outOfOrder = true
 schemaModelLocation = "schema-model"
@@ -23,3 +23,8 @@ detectRenames = "identical-only"
 
 [redgateCompare.postgresql.options.ignores]
 ignoreNewlinesInTextObjects = "off"
+
+[environments.FamilyApp]
+url = "jdbc:postgresql://localhost:5432/familyapp"
+schemas = [ "public" ]
+displayName = "FamilyApp"
