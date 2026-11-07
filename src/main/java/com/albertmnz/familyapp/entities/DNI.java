@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
 public class DNI {
 
     @Id
-    @Column("number")
+    @Column(name = "number")
     private String number;
 
     private byte[] image_front;
