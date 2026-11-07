@@ -1,4 +1,4 @@
-package com.albertmnz.familyapp.entity;
+package com.albertmnz.familyapp.entities;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
